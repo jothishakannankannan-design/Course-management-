@@ -221,6 +221,17 @@
 
   .sub-h{ font-family:'Source Serif 4',serif; font-weight:600; font-size:16px; margin:32px 0 12px; }
 </style>
+
+<style>
+  /* GitHub Pages/mobile compatibility */
+  html, body { min-height: 100%; }
+  body { overflow-x: hidden; }
+</style>
+<script>
+  // GitHub Pages is static hosting. Keep the app usable without a backend.
+  window.API_BASE_URL = window.API_BASE_URL || "";
+</script>
+
 </head>
 <body>
 
